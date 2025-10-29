@@ -5,8 +5,8 @@ const btn = document.querySelector("#enterBtn");
 
 btn.addEventListener("click", () => {
 	div.innerHTML = `
-    <p id="status">
-      <h1>Entered Metaverse</h1>
-    </p>
-  `;
+      <div id="status">
+        <h1>Entered Metaverse</h1>
+      </div>
+    `;
 })
